@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+		<meta name = "author" content ="Rui Zian C. Mahinay">
+		<meta name = "section" content ="Lithium">
+		<meta name = "keywords" content ="FA">
+		<meta name = "revised" content ="11-17-23">
+		
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+			
+        }
+        a:visited {
+            color: grey;
+        }
+        a:hover {
+            color: green;
+        }
+        a:active {
+            color: Blue;
+        }
+		.Press1{
+		background-color: Red;
+		padding: 10px;
+		}
+		
+		.Press2{
+		background-color: Pink;
+		padding: 10px;
+		}
+		
+
+        div {
+		width: 100px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        #link1:target {
+            background-color: lightgray;
+            color: brown;
+        }
+
+        #link2:target {
+            border: 10px dotted green;
+        }
+    </style>
+</head>
+<body>
+    <a href="#link1" class="Press1">Link 1</a><br>
+    <div id="link1">Div 1 here</div>
+	
+	<a href="#link2" class="Press2">Link 2</a><br>
+    <div id="link2">Div 2 here</div>
+</body>
+</html>
